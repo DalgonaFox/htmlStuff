@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Esse documento é um conjunto de explicações e tags semânticas de HTML. -->
+
+
+<!-- Cabeçalho da página, com links, importações e informações importantes sobre o site. -->
+<head>
+    <!-- Conjunto de caracteres a serem utilizados na página -->
+    <meta charset="UTF-8">
+    <!-- Viewport torna o site ajustável à tela do dispositivo, auxiliando na responsividade e ajustando um zoom automático de 100% ao entrar na página -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página que aparece na guia do navegador. -->
+    <title>HTML Semântico em ação</title>
+    <!-- Descrição da página que aparece nos resultados do Google -->
+    <meta name="description" content="Como usar HTML semântico nas suas páginas?">
+    <!-- Palavras chave para SEO, facilitando encontrar o site por resultados de pesquisa -->
+    <meta name="keywords" content="HTML, semântico, Tags, programação">
+    <!-- Autor da página -->
+    <meta name="author" content="Milena Oliveira Santos">
+
+    <!-- Link para o CSS da página -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Ícone da página no navegador -->
+    <link rel="icon" href="icon.png">
+
+</head>
+<!-- Corpo da Página -->
+<body>
+    
+    <!-- Abaixo eu escrevi uma estrutura básica de HTML semântico para um website. -->
+     <!-- A tag Header é um cabeçalho -->
+    <header>
+        <!-- A tag Nav é uma tag de navegação -->
+        <nav>
+            <ul>
+                <li>Blog</li>
+                <li>Benefícios</li>
+                <li>Guaraná</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main denomina o conteúdo principal da página, onde o nvegador vai procurar pela informação na pesquisa -->
+    <main>
+
+        <h1>Título principal da página. H1 deve ser usado apenas uma vez na página toda, e mostrar o tema principal da página.</h1>
+
+        <!-- Article é uma seção da página que deve ser compreensível de forma independente, ou seja, não depender de outras seções do site. Um exemplo de uso disso é uma postagem de um blog, ou de uma rede social. -->
+        <article>
+            <h2>Postagem de Blog</h2>
+            <p>Hoje eu aprendi muito sobre HTML e CSS, muitas coisas que eu nunca soube e que estão sendo muito úteis!!!</p>
+            <img src="" alt="">
+        </article>
+
+        <!-- Section delimita uma seção do site, utilizada para fins de estilização. -->
+        <section>
+            <h3>Nossos Benefícios</h3>
+            <p>Nossa empresa oferece Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ab, libero ullam ipsam molestiae nesciunt fugiat consectetur minima recusandae sunt, itaque est ad aperiam repellendus architecto at maxime nulla illo?</p>
+            <img src="" alt="">
+        </section>
+
+        <!-- Aside representa conteúdo que não é necessariamente importante para o tema de site, ou seja, é secundário. Um exemplo disso são as seções laterais de um blog que podem ser utilizadas para mostrar anúncios e propagandas, ou uma sidebar. -->
+        <aside>
+            <section>
+                <h3>Compre já o Guaraná Antartica!!</h3>
+                <p>É um refrigerante muito bom com sabor de guaraná</p>
+                <img src="" alt="">
+            </section>
+        </aside>
+
+    </main>
+    <!-- Footer é o rodapé da página, que geralmente contém links pertinentes para a página (similar ao navbar), Informações de copyright, logo do site e redes sociais. -->
+     <!-- &copy; ou &#169; exibem o símbolo de copyright! -->
+    <footer>
+        <h3>Meu Site Daora</h3>
+        <p>&copy; Milena Oliveira Santos 2025</p>
+    </footer>
+
+</body>
+</html>

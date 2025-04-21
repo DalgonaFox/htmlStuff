@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Esse documento é um conjunto de explicações e tags úteis de HTML que eu encontrei!! -->
+
+<!-- Cabeçalho da página, com links, importações e informações importantes sobre o site. -->
+<head>
+    <!-- Conjunto de caracteres a serem utilizados na página -->
+    <meta charset="UTF-8">
+    <!-- Viewport torna o site ajustável à tela do dispositivo, auxiliando na responsividade e ajustando um zoom automático de 100% ao entrar na página -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página que aparece na guia do navegador. -->
+    <title>Dicionário de Tags e Boas Práticas em HTML!</title>
+    <!-- Descrição da página que aparece nos resultados do Google -->
+    <meta name="description" content="Conjunto de tags muito úteis de HTML">
+    <!-- Palavras chave para SEO (Search Engine Optimization), facilitando encontrar o site por resultados de pesquisa -->
+    <meta name="keywords" content="HTML, tags, úteis, programação">
+    <!-- Autor da página -->
+    <meta name="author" content="Milena Oliveira Santos">
+    <!-- Faz a página atualizar automaticamente depois de um período em segundos (nesse caso, 30) -->
+    <meta http-equiv="refresh" content="30">
+
+    <!-- As tags meta abaixo com propriedades Open Graph definem a aparência de um embed ao compartilhá-lo no discord ou no whatsapp por exemplo, como um preview. -->
+    <!-- A propriedade Open Graph title é o título; -->
+    <meta property="og:title" content="Título da minha página!!!"> 
+    <!-- A próxima é de descrição, uma descrição curta que aparece no preview -->
+    <meta property="og:description" content="Descrição da minha página daora">
+    <!-- Imagem do preview, totalmente personalizável -->
+    <meta property="og:image" content="./image.png">
+    <!-- URL escrita da página -->
+    <meta property="og:url" content="https://meuhtmldaora.onrender.com">
+    <!-- Autor da página -->
+    <meta property="og:author" content="Milena Oliveira Santos">
+
+    <!-- Link para o CSS da página -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Ícone da página no navegador -->
+    <link rel="icon" href="images/icon.png">
+
+</head>
+<!-- Corpo da Página -->
+<body>
+
+    <!-- Dicionário de Tags HTML -->
+
+    <!-- Texto -->
+    <!-- Headers significam títulos e subtítulos. Existem 6 deles ao total, e é recomendado que sejam usados com hierarquias. -->
+    <h1>Título 1</h1> <!-- Uma página deve conter apenas um h1, de preferência. -->
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+    <p>Parágrafo</p> <!-- <p> é uma tag que contém texto. -->
+
+    <br> <!-- tag que dá um espaço! -->
+    <hr> <!-- tag de linha horizontal -->
+
+    <!-- Divisórias -->
+    <div></div> <!-- Divs são tags que fazem uma divisão para fins estilísticos. É um container em forma de BLOCO, e pega toda a largura da tela. -->
+    <span></span> <!-- Span servem para a mesma função que a div, a diferença é que estes são containers em forma de LINHA, e pegam apenas o tamanho do conteúdo dentro dele. -->
+
+    <!-- Exemplo da diferença de ambos abaixo: -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, fuga aut rerum labore modi ipsa dolorem nihil eaque ipsum quis optio, ipsam architecto doloremque aperiam id! Impedit minus facere eius! <div style="background-color: blue;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur sint aspernatur, reprehenderit earum pariatur alias exercitationem deserunt doloribus vero, amet eaque natus veritatis harum voluptatibus nemo excepturi. Adipisci, distinctio facilis?</div></p>
+    <p>Lorem ipsum  dolor sit amet consectetur adipisicing elit. Ullam, fuga aut rerum labore modi ipsa dolorem nihil eaque ipsum quis optio, ipsam architecto doloremque aperiam id! Impedit minus facere eius!<span style="background-color: blueviolet;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nisi quibusdam sunt, maiores voluptatem et nulla officiis consectetur. Odit deserunt vitae eos optio. Corrupti quo nulla accusamus quis praesentium nisi!</span></p>
+
+    <!-- Edição de texto -->
+    <strong>Esse texto está em negrito!</strong>
+    <br>
+    <em>Esse aqui está em itálico.</em>
+    <br>
+    <del>Esse texto foi deletado.</del>
+    <br>
+    <ins>E esse foi adicionado!</ins>
+    <br>
+    <samp>Esse programa teve um erro fatal. Brincadeira! essa tag serve para mostrar mensagens do computador, geralmente do terminal.</samp>
+    <br>
+    <!-- A tag wbr significa word break, e pode ser utilizada para quebras de linha caso necessário, caso a tela fique menor e as palavras não caibam mais na tela. -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <wbr/>Similique minima eaque iure totam aut ipsum consequatur officia, <wbr/>vero fugiat in odio minus quas sapiente, labore velit, sequi a quisquam iste! <wbr/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore explicabo nemo voluptatum <wbr/>ipsum voluptatibus pariatur dolore deleniti <wbr/>iure eius suscipit doloribus error unde nihil odio, totam debitis atque quas!</p>
+    <!-- A tag de tempo não muda nada no texto, mas serve para demarcar um tempo ou data, trazendo informações para o navegador. -->
+    <p>A loja vai fechar às <time>19:00</time>.</p>
+    <p>Eu adoro o <time datetime="2025-02-14 00:00">Dia dos Namorados</time>!</p>
+    <br>
+    <mark>Esse está grifado.</mark>
+    <!-- A tag sub faz o texto dentro dele ficar um pouco pra baixo, e a tag sup eleva. Muito útil para não ter que usar CSS ao escrever fórmulas! -->
+    <p>H<sub>2</sub>O  X<sup>2</sup></p>
+    <small>Esse texto é bem pequeno!</small>
+
+    <p>Passe o mouse por cima <abbr title="Essa é uma abreviação!">desse texto!</abbr></p>
+    <abbr title="Hypertext Markup Language">HTML</abbr> <!-- abbr é uma tag de abreviação, mas também pode ser usada para mostrar texto ao passar o mouse por cima! Por exemplo, mostrar o que um botão faz ao passar o mouse por cima da imagem dele. -->
+    <br>
+    <!-- code é uma tag específica para colocar código, deixando-a automaticamente com uma font monospace. Pode ser estilizado com CSS para ficar mais bonito -->
+    <code>print("Hello, World!")</code> 
+
+    <!-- kbd é uma tag que significa uma tecla do teclado. -->
+    <p>Sabia que com o atalho <kbd>Ctrl</kbd> + <kbd>K</kbd> + <kbd>C</kbd> você pode escrever um comentário automaticamente ou comentar uma linha de código em HTML no VSCode?</p>
+    
+
+    <!-- Existem diversos tipos de input muito úteis! -->
+
+    <!-- Você pode criar um datalist para um input, que faz com que sejam geradas recomendações para o usuário conforme ele vai digitando as letras! -->
+    <p>Digite uma cor primária e veja as recomendações!</p>
+    <input type="text" list="colors">
+    <datalist id="colors">
+        <option value="azul"></option>
+        <option value="amarelo"></option>
+        <option value="vermelho"></option>
+    </datalist>
+    <br> <br>
+    <input type="color"> <!-- Esse input gera um colorpicker, onde você pode selecionar qualquer cor que quiser! Ele até tem um conta gotas. -->
+    <br>
+    <input type="range" value="2" min="1" max="100"> <!-- Esse input te dá uma barrinha que você pode mexer. Com as propriedades value, min e max você pode definir o valor atual, o valor mínimo e o máximo. -->
+    <br>
+    <input type="date"> <!-- Esse te deixa inserir uma data no calendário. -->
+    <input type="datetime"> <!-- E esse, uma data com o horário, mas não é muito útil já que não te deixa selecionar com um calendário ou botões. -->
+    <input type="datetime-local"> <!-- Esse é o verdadeiro datetime, te deixa selecionar com um calendário e um relógio, baseados na data e horário do seu dispositivo. -->
+    <input type="time"> <!-- Esse te deixa inserir só o horário. -->
+    <input type="week"> <!-- E esse te deixa selecionar uma semana do ano em específico! (vai de segunda a domingo.) -->
+
+
+    <!-- Demais Tags muito úteis! -->
+
+    <!-- A tag details com summary dentro cria um sumário com dropdown! -->
+    <details>
+        <summary>O que tem aqui dentro?</summary>
+        Um sumário com dropdown!
+    </details>
+    <br>
+
+    <!-- A tag dialog cria uma janela pop-up, basicamente um modal! Ele pode ser configurado com javascript, como vemos a seguir! -->
+    <button onclick="abrir()">Abrir modal</button>
+    <dialog>
+        <p>Oie, esse é um Pop-up!</p>
+        <button onclick="fechar()">Fechar</button>
+    </dialog>
+
+    <script>
+        function abrir() {
+            document.querySelector('dialog').showModal()
+        }
+        function fechar() {
+            document.querySelector('dialog').close()
+        }
+    </script>
+    <br> <br>
+
+    <!-- Serve para mostrar texto minúsculo por cima de uma palavra, e geralmente é utilizado com idiomas em específico. Por exemplo, a língua japonesa tem 2 alfabetos e diversos símbolos em kanji, então esta tag pode ser usada para mostrar caracteres hiragana por cima do kanji para facilitar a compreensão. -->
+    <ruby> Texto Principal
+        <rt>Texto secundário</rt>
+        <!-- a tag rp é o mesmo que rt, mas para navegadores que não suportam a tag ruby. -->
+        <rp>Texto secundário</rp>
+    </ruby>
+    <br>
+    <ruby> 💀
+        <rt>Ur so cooked fr</rt>
+    </ruby>
+    <br> <br>
+
+    <!-- progress é uma tag que adiciona uma barra de progresso, sem precisar de CSS! -->
+    <progress max="100" value="40"></progress> 
+    <br>
+
+    <!-- Parecido com progress, a tag meter cria uma barra, mas geralmente serve para exibir um dado, como por exemplo quanto da prova eu acertei. Temos diversas propriedades, como min (valor mínimo) e max (valor máximo) e value (valor atual). As propriedades low, high e optimum são como um valor baixo, médio e alto, e mudam a cor da barra. Mude o value e veja para entender melhor! -->
+    <meter min="0" max="100" value="10" low="30" high="60" optimum="90"></meter>
+
+    <!-- Fieldset é uma tag que cria uma caixa bonita. -->
+    <fieldset>
+        <legend>Título do meu fieldset</legend> <!-- legend representa o título do meu fieldset, e fica entre as bordas da caixa! -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quis, nobis id quae laborum exercitationem iure quos dolorum totam, hic consequuntur vitae dolor aut ullam, impedit reprehenderit nemo recusandae vel.</p>
+    </fieldset>
+
+    <!-- pre é a tag que exibe o texto EXATAMENTE como foi escrito, um texto pré definido. -->
+    <pre>
+        H   oooooooooo
+        T   maaa
+        M   goooo
+        L      !!!!
+        !!!!
+    </pre>
+    
+    <!-- com a tag optgroup, você pode criar categorias de opções que você pode selecionar. -->
+    <p>Escolha uma roupa abaixo</p>
+    <select name="" id="">
+        <option value="">roupa</option>
+        <optgroup label="chapéus">
+            <option value="">boné</option>
+            <option value="">cartola</option>
+        </optgroup>
+        <optgroup label="sapatos">
+            <option value="">tênis</option>
+            <option value="">sapatilha</option>
+        </optgroup>
+        <option value="">blusa</option>
+        <option value="">calça</option>
+    </select>
+
+    <!-- A tag marquee cria um texto que desliza pela tela! Você pode configurar seu comportamento com as propriedades behavior, direction, height, bgcolor, hspace, loop, scrollamount, scrolldelay, truespeed, vspace e width. Ufa! -->
+    <marquee behavior="alternate" direction="right" bgcolor="violet">Oiee, essa é a tag marquee!!</marquee>
+
+    <!-- A tag figure serve para agrupar uma imagem com uma legenda para a mesma. Você também pode inserir conteúdo sobre a imagem, seu autor, citação ou fonte, etc. -->
+    <figure>
+        <img src="images/image2.png" width="300" alt="Akito Shinonome">
+        <figcaption>Akito Shinonome</figcaption>
+        <small>Fonte: Project Sekai</small>
+    </figure>
+
+    <!-- A tag picture serve principalmente para design responsivo de páginas, dando maior flexibilidade para definir imagens. Ou seja, se eu quiser posso definir imagens diferentes a serem exibidas conforme o tamanho da tela! -->
+    <picture>
+        <source srcset="images/image.png" media="(min-width: 900px)"> <!-- essa imagem é exibida caso a tela tenha uma largura mínima de 900 pixels --> 
+        <img src="images/image2.png" style="width: 700px;"> <!-- caso a tela seja menor que 900pixels, ela vai mostrar essa imagem no lugar. -->
+    </picture>
+
+    <!-- A tag template serve para criar um bloco em html que você pode repetir quantas vezes quiser, e alterar as informações que quiser, com ajuda de javascript. É literalmente um template. Caso criado sozinho, não aparece na tela. O template aparece na tela por que escrevemos document.body.append(content), que adiciona o conteúdo do template ao body. -->
+    <template>
+        <h3>Esse é um template</h3>
+        <small>Hiiii</small>
+    </template>
+
+    <script>
+        const template = document.querySelector('template')
+        const content = template.content.cloneNode(true)
+        content.querySelector('small').innerText = 'Esse texto é editável em JavaScript!'
+        document.body.append(content)
+    </script>
+
+</body>
+</html>
