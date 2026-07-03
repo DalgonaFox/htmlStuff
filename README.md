@@ -29,17 +29,6 @@ Um guia de como montar o "esqueleto" de uma página web moderna respeitando a se
 * **`<aside>`:** Organização de conteúdos secundários, como barras laterais e propagandas.
 * **`<footer>`:** Estruturação do rodapé com informações de direitos autorais e links úteis.
 
-## Como Visualizar
-
-Por se tratar de um projeto frontend estático, não há necessidade de instalações complexas ou configurações de ambiente.
-
-1. Clone o repositório para a sua máquina:
-   ```bash
-   git clone [https://github.com/DalgonaFox/htmlStuff.git](https://github.com/DalgonaFox/htmlStuff.git)
-   ```
-2. Abra a pasta do projeto.
-3. Dê um clique duplo nos arquivos .html para abri-los diretamente no seu navegador preferido, ou utilize a extensão Live Server no VSCode para visualizar as edições em tempo real.
-
 ## Contato
 Caso tenha dúvidas ou sugestões, entre em contato:
 - Email: mila.olisantos@gmail.com
