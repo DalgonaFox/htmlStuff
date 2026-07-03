@@ -5,6 +5,7 @@
 </p>
 
 Este repositório funciona como um guia prático e comentado sobre **HTML5**. Ele foi criado para documentar, explicar e exemplificar o uso de diversas tags (desde as mais comuns até as mais raras) e a aplicação de boas práticas de estruturação semântica na web, por meio de comentários nos arquivos.
+A página pode ser visualizada online por [esse link](https://meuhtmldaora.onrender.com), recomendo utilizar a ferramenta "Inspecionar" caso não queira clonar o projeto localmente.
 
 É um excelente material de consulta rápida para relembrar como estruturar páginas e utilizar recursos nativos do navegador sem precisar depender excessivamente de CSS ou bibliotecas externas.
 
