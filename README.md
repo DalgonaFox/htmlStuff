@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
 Este repositório funciona como um guia prático e comentado sobre **HTML5**. Ele foi criado para documentar, explicar e exemplificar o uso de diversas tags (desde as mais comuns até as mais raras) e a aplicação de boas práticas de estruturação semântica na web, por meio de comentários nos arquivos.
