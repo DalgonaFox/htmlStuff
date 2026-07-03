@@ -1,15 +1,15 @@
-<h1 align="center"> 🌐 HTML Stuff </h1>
+<h1 align="center"> HTML Stuff </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
-Este repositório funciona como um guia prático e comentado sobre **HTML5**. Ele foi criado para documentar, explicar e exemplificar o uso de diversas tags (desde as mais comuns até as mais raras) e a aplicação de boas práticas de estruturação semântica na web.
+Este repositório funciona como um guia prático e comentado sobre **HTML5**. Ele foi criado para documentar, explicar e exemplificar o uso de diversas tags (desde as mais comuns até as mais raras) e a aplicação de boas práticas de estruturação semântica na web, por meio de comentários nos arquivos.
 
 É um excelente material de consulta rápida para relembrar como estruturar páginas e utilizar recursos nativos do navegador sem precisar depender excessivamente de CSS ou bibliotecas externas.
 
-## 📂 O que você vai encontrar aqui?
+## Conteúdo
 
 O repositório contém arquivos de estudo focados em diferentes aspectos da linguagem:
 
@@ -28,7 +28,7 @@ Um guia de como montar o "esqueleto" de uma página web moderna respeitando a se
 * **`<aside>`:** Organização de conteúdos secundários, como barras laterais e propagandas.
 * **`<footer>`:** Estruturação do rodapé com informações de direitos autorais e links úteis.
 
-## 🚀 Como Visualizar
+## Como Visualizar
 
 Por se tratar de um projeto frontend estático, não há necessidade de instalações complexas ou configurações de ambiente.
 
